@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./ProductsPage.css";
 import shoe from "../assets/shoe.jpg";
+import { productdata } from "../utils/constants";
+import ShoeCard from "../components/ShoeCard";
 
 function ProductsPage() {
   // const [data, setData] = useState([]);
@@ -33,13 +35,13 @@ function ProductsPage() {
                 <div className="cost-margin">
                   <input type="checkbox" name="my-checkbox" className="" />
                   <label for="opt-in" className="cost-label">
-                    Rs. 1500-4000
+                    Rs. 4001-7000
                   </label>
                 </div>
                 <div className="cost-margin">
                   <input type="checkbox" name="my-checkbox" className="" />
                   <label for="opt-in" className="cost-label">
-                    Rs. 1500-4000
+                    Rs. 7001+
                   </label>
                 </div>
               </div>
@@ -143,7 +145,7 @@ function ProductsPage() {
                 <p className="sortby-text">Sort by</p>
               </div>
               <div className="shoes-grid">
-                <div className="shoes-card">
+                {/* <div className="shoes-card">
                   <img src={shoe} alt="Shoes" />
                   <div className="shoes-card-content">
                     <p className="shoe-name">KSL 01</p>
@@ -229,9 +231,9 @@ function ProductsPage() {
                       <p className="shoe-rating">⭐⭐⭐⭐⭐</p>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="shoes-card">
+                {/* <div className="shoes-card">
                   <img src={shoe} alt="Shoes" />
                   <div className="shoes-card-content">
                     <p className="shoe-name">KSL 01</p>
@@ -240,7 +242,18 @@ function ProductsPage() {
                       <p className="shoe-rating">⭐⭐⭐⭐⭐</p>
                     </div>
                   </div>
-                </div>
+                </div> */}
+
+                {productdata.map((product, i) => {
+                  return (
+                    <ShoeCard
+                      name={product.name}
+                      price={product.price}
+                      rating={product.rating}
+                      key={i}
+                    />
+                  );
+                })}
               </div>
             </div>
           </div>

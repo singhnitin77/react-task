@@ -56,6 +56,54 @@ export const journeytext = [
   },
 ];
 
+export const productdata = [
+  {
+    name: "KSL 01",
+    price: 1000,
+    rating: 5,
+  },
+  {
+    name: "KSL 03",
+    price: 4000,
+    rating: 4,
+  },
+  {
+    name: "KSL 04",
+    price: 2000,
+    rating: 2,
+  },
+  {
+    name: "KSL 05",
+    price: 7000,
+    rating: 5,
+  },
+  {
+    name: "KSL 06",
+    price: 500,
+    rating: 5,
+  },
+  {
+    name: "KSL 07",
+    price: 4000,
+    rating: 4,
+  },
+  {
+    name: "KSL 08",
+    price: 2000,
+    rating: 3,
+  },
+  {
+    name: "KSL 09",
+    price: 1200,
+    rating: 3,
+  },
+  {
+    name: "KSL 10",
+    price: 2500,
+    rating: 4,
+  },
+];
+
 // export const team = [
 //   {
 //     id: 1,
