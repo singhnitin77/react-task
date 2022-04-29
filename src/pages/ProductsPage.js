@@ -17,7 +17,7 @@ function ProductsPage() {
       <div className="product-content">
         <h1 className="product-title text-center">New Collection</h1>
 
-        <div className="product-grid container">
+        <div className="product-grid">
           <div className="product-filter">
             <div className="product-filter_content">
               <h3 className="filter-text">FILTERS</h3>
@@ -143,6 +143,39 @@ function ProductsPage() {
                 <p className="sortby-text">Sort by</p>
               </div>
               <div className="shoes-grid">
+                <div className="shoes-card">
+                  <img src={shoe} alt="Shoes" />
+                  <div className="shoes-card-content">
+                    <p className="shoe-name">KSL 01</p>
+                    <div className="shoes-flex">
+                      <p className="shoe-price">Rs. 2000</p>
+                      <p className="shoe-rating">⭐⭐⭐⭐⭐</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="shoes-card">
+                  <img src={shoe} alt="Shoes" />
+                  <div className="shoes-card-content">
+                    <p className="shoe-name">KSL 01</p>
+                    <div className="shoes-flex">
+                      <p className="shoe-price">Rs. 2000</p>
+                      <p className="shoe-rating">⭐⭐⭐⭐⭐</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="shoes-card">
+                  <img src={shoe} alt="Shoes" />
+                  <div className="shoes-card-content">
+                    <p className="shoe-name">KSL 01</p>
+                    <div className="shoes-flex">
+                      <p className="shoe-price">Rs. 2000</p>
+                      <p className="shoe-rating">⭐⭐⭐⭐⭐</p>
+                    </div>
+                  </div>
+                </div>
+
                 <div className="shoes-card">
                   <img src={shoe} alt="Shoes" />
                   <div className="shoes-card-content">

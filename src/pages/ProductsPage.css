@@ -129,7 +129,7 @@ option:checked {
   column-gap: 2rem;
   row-gap: 2rem;
   /* margin-bottom: 9.6rem; */
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .shoes-card img {
@@ -157,4 +157,11 @@ option:checked {
 
 .shoe-rating {
   font-size: 1.4rem;
+}
+
+.hdf {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
