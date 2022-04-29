@@ -1,0 +1,160 @@
+.product-title {
+  font-size: 4rem;
+
+  font-weight: 600;
+  line-height: 1.1;
+  margin-top: 7.2rem;
+  margin-bottom: 7.2rem;
+}
+
+.product-grid {
+  display: grid;
+  column-gap: 2rem;
+  row-gap: 9.6rem;
+  margin-bottom: 9.6rem;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.product-filter,
+.cart-box,
+.shoes-col {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 2rem 2rem;
+  border-radius: 4px;
+}
+
+.filter-text,
+.cart {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 2.2rem;
+  line-height: 1.1;
+  color: #333;
+}
+
+.cost-text {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+  line-height: 1.1;
+}
+
+input:checked + label {
+  color: red;
+}
+
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px hotpink;
+}
+
+option:checked {
+  box-shadow: 0 0 0 3px lime;
+  color: red;
+}
+
+.cost-label {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-left: 0.5rem;
+}
+
+.cost-margin {
+  margin-bottom: 0.5rem;
+}
+
+.button-filter {
+  display: flex;
+  justify-content: center;
+}
+
+.apply-button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #ff4820;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.cart-button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  background: #333;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 25px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.cart-text-middle {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 24rem;
+  margin-top: 19rem;
+  line-height: 1.1;
+}
+
+.shoes-content-tit {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sortby-text {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 2.2rem;
+  line-height: 1.1;
+  color: #333;
+}
+
+.shoes-grid {
+  display: grid;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  /* margin-bottom: 9.6rem; */
+  grid-template-columns: 1fr 1fr;
+}
+
+.shoes-card img {
+  width: 100%;
+}
+
+.shoe-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.shoe-price {
+  font-size: 1.4rem;
+  font-weight: 500;
+  /* margin-top: 1rem; */
+}
+
+.shoes-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shoe-rating {
+  font-size: 1.4rem;
+}

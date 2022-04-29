@@ -1,0 +1,61 @@
+.team {
+  z-index: 1;
+
+  background-color: #fdf2e9;
+  padding-top: 7.2rem;
+  padding-bottom: 7.2rem;
+}
+
+.team-text-heading {
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  width: 80%;
+  text-align: center;
+  margin-bottom: 9.6rem;
+}
+
+.team-img {
+  width: 100%;
+}
+
+.footer-links_icons {
+  text-align: center;
+}
+
+.card {
+  background-color: #fff;
+
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+
+  box-shadow: 0 1.2rem 2.4rem rgb(0 0 0 / 8%);
+
+  background-color: #fff;
+}
+
+.card:hover {
+  /* transform: translateY(-1.2rem); */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.06);
+}
+
+.card-content {
+  padding: 1.2rem 1.8rem;
+}
+
+.team-mem-name {
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--color-secondary-blue);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.team-mem-work {
+  color: #3e4e49;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+}
